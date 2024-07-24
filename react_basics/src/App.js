@@ -5,7 +5,8 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
-
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 
 
 import React, { Component } from 'react';
@@ -16,11 +17,14 @@ render () {
     <div className='App'>
       {/* <Counter/>
       <Message/> */}
-      <Greet name = "Pooja" heroName = "Artist"/>
+      {/* <Greet name = "Pooja" heroName = "Artist"/> */}
       {/* <p>Heloooooooooooooooooooooooooooooooooo</p>
       <Greet name = "Preethi"/> */}
-      <Welcome name = "Preethi"/>
-      <Hello/>
+      {/* <Welcome name = "Preethi"/> */}
+      {/* <Hello/> */}
+
+      <FunctionClick/>
+      <ClassClick/>
     </div>
   )
 }
