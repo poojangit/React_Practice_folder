@@ -10,6 +10,7 @@ import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 
 import React, { Component } from 'react';
+import ParentComponent from './components/ParentComponent';
 
 
 class App extends Component {
@@ -26,7 +27,8 @@ render () {
 
       {/* <FunctionClick/>
       <ClassClick/> */}
-      <EventBind/>
+      {/* <EventBind/> */}
+      <ParentComponent/>
     </div>
   )
 }
