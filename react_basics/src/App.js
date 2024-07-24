@@ -7,9 +7,10 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
-
+import EventBind from './components/EventBind';
 
 import React, { Component } from 'react';
+
 
 class App extends Component {
 render () {
@@ -23,8 +24,9 @@ render () {
       {/* <Welcome name = "Preethi"/> */}
       {/* <Hello/> */}
 
-      <FunctionClick/>
-      <ClassClick/>
+      {/* <FunctionClick/>
+      <ClassClick/> */}
+      <EventBind/>
     </div>
   )
 }
