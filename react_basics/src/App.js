@@ -11,6 +11,9 @@ import EventBind from './components/EventBind';
 
 import React, { Component } from 'react';
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
+import Person from './components/Person';
 
 
 class App extends Component {
@@ -28,7 +31,12 @@ render () {
       {/* <FunctionClick/>
       <ClassClick/> */}
       {/* <EventBind/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+
+      {/* <UserGreeting/> */}
+
+      <NameList/>
+      {/* <Person/> */}
     </div>
   )
 }
