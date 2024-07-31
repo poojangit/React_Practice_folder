@@ -18,6 +18,9 @@ import LifecycleA from './components/LifecycleA';
 import Prac1 from './components/Prac1';
 import Prac2 from './components/Prac2';
 import Prac3 from './components/Prac3';
+import RefsDemo from './components/RefsDemo';
+import InputParentRef from './components/InputChildRef';
+import FRParentRef from './components/FRParentRef';
 
 
 class App extends Component {
@@ -46,7 +49,11 @@ render () {
 
       {/* <Prac1/> */}
       {/* <Prac2/> */}
-      <Prac3/>
+      {/* <Prac3/> */}
+      {/* <RefsDemo/> */}
+      {/* <InputParentRef/> */}
+      < FRParentRef/>
+
     </div>
   )
 }
