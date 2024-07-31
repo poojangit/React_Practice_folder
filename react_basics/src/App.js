@@ -14,6 +14,10 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Person from './components/Person';
+import LifecycleA from './components/LifecycleA';
+import Prac1 from './components/Prac1';
+import Prac2 from './components/Prac2';
+import Prac3 from './components/Prac3';
 
 
 class App extends Component {
@@ -35,8 +39,14 @@ render () {
 
       {/* <UserGreeting/> */}
 
-      <NameList/>
+      {/* <NameList/> */}
       {/* <Person/> */}
+
+      {/* <LifecycleA/> */}
+
+      {/* <Prac1/> */}
+      {/* <Prac2/> */}
+      <Prac3/>
     </div>
   )
 }
