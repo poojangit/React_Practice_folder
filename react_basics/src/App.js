@@ -21,42 +21,67 @@ import Prac3 from './components/Prac3';
 import RefsDemo from './components/RefsDemo';
 import InputParentRef from './components/InputChildRef';
 import FRParentRef from './components/FRParentRef';
+import HoiClickCounter from './components/HoiClickCounter';
+import HoiHoverCounter from './components/HoiHoverCounter';
+import ClickCounterTwo from './components/RenderProps/ClickCounterTwo';
+import HoverCounter from './components/RenderProps/HoverCounter';
+import User from './components/RenderProps/User';
+import CounterRender from './components/RenderProps/CounterRender';
+import HookCounterFour from './Hook/HookCounterFour';
 
 
 class App extends Component {
-render () {
-  return (
-    <div className='App'>
-      {/* <Counter/>
+  render() {
+    return (
+      <div className='App'>
+        {/* <Counter/>
       <Message/> */}
-      {/* <Greet name = "Pooja" heroName = "Artist"/> */}
-      {/* <p>Heloooooooooooooooooooooooooooooooooo</p>
+        {/* <Greet name = "Pooja" heroName = "Artist"/> */}
+        {/* <p>Heloooooooooooooooooooooooooooooooooo</p>
       <Greet name = "Preethi"/> */}
-      {/* <Welcome name = "Preethi"/> */}
-      {/* <Hello/> */}
+        {/* <Welcome name = "Preethi"/> */}
+        {/* <Hello/> */}
 
-      {/* <FunctionClick/>
+        {/* <FunctionClick/>
       <ClassClick/> */}
-      {/* <EventBind/> */}
-      {/* <ParentComponent/> */}
+        {/* <EventBind/> */}
+        {/* <ParentComponent/> */}
 
-      {/* <UserGreeting/> */}
+        {/* <UserGreeting/> */}
 
-      {/* <NameList/> */}
-      {/* <Person/> */}
+        {/* <NameList/> */}
+        {/* <Person/> */}
 
-      {/* <LifecycleA/> */}
+        {/* <LifecycleA/> */}
 
-      {/* <Prac1/> */}
-      {/* <Prac2/> */}
-      {/* <Prac3/> */}
-      {/* <RefsDemo/> */}
-      {/* <InputParentRef/> */}
-      < FRParentRef/>
+        {/* <Prac1/> */}
+        {/* <Prac2/> */}
+        {/* <Prac3/> */}
+        {/* <RefsDemo/> */}
+        {/* <InputParentRef/> */}
+        {/* < FRParentRef/> */}
+        {/* <HoiClickCounter/> */}
+        {/* <HoiHoverCounter/> */}
+        {/* <ClickCounterTwo/>
+      <HoverCounter/>
+      <User name = {(isLoggedIn) =>  isLoggedIn ? 'guest' : 'pooja'}/>
+       */}
 
-    </div>
-  )
-}
+        {/* <CounterRender
+          render={(count, incrementCount) => (
+            <ClickCounterTwo count={count} incrementCount={incrementCount}/>
+      )} 
+      />
+      <CounterRender
+          render={(count, incrementCount) => (
+            <HoverCounter count={count} incrementCount={incrementCount}/>
+      )} 
+      /> */}
+
+      <HookCounterFour/>
+      </div>
+    )
+  }
 }
 
 export default App
