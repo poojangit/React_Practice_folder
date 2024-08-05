@@ -4,6 +4,7 @@ export class User extends Component {
   render() {
     return (
       <div>
+        {/* pooja */}
         {this.props.name(true)}
       </div>
     );

@@ -28,6 +28,13 @@ import HoverCounter from './components/RenderProps/HoverCounter';
 import User from './components/RenderProps/User';
 import CounterRender from './components/RenderProps/CounterRender';
 import HookCounterFour from './Hook/HookCounterFour';
+import MyForm from './components/FormHandling/MyForm';
+import GreetProp from './components/props/GreetProp';
+import ParentMethodCompo from './components/methodasprops/ParentMethodCompo';
+import UserProp from './components/renderProps2/UserProp';
+import HourRenderCounter from './components/renderProps2/HourRenderCounter';
+import MessageState from './components/state/MessageState';
+import CountReducer from './Hook/useReducer/CountReducer';
 
 
 class App extends Component {
@@ -78,7 +85,18 @@ class App extends Component {
       )} 
       /> */}
 
-      <HookCounterFour/>
+      {/* <HookCounterFour/> */}
+      {/* <MyForm/> */}
+
+      {/* <GreetProp name = 'Pooja'>
+        <p>I am children prop</p>
+      </GreetProp> */}
+
+      {/* <ParentMethodCompo/> */}
+      {/* <UserProp name = {(isLoggedIn) => isLoggedIn ? 'Pooja' : 'Guest'}/> */}
+     {/* <HourRenderCounter/> */}
+     {/* <MessageState/> */}
+     <CountReducer/>
       </div>
     )
   }
