@@ -35,7 +35,13 @@ import UserProp from './components/renderProps2/UserProp';
 import HourRenderCounter from './components/renderProps2/HourRenderCounter';
 import MessageState from './components/state/MessageState';
 import CountReducer from './Hook/useReducer/CountReducer';
-
+import MyList from './components/listrender/MyList';
+import ComponentC from './components/context/ComponentC';
+import { UserProvider } from './components/context/UserContext';
+import ComponentF from './components/context/ComponentF';
+import PureCompo from './components/purecompo/PureCompo';
+import PureParentCompo from './components/purecompo/PureParentCompo';
+// import myList from './components/listrender/MyList';
 
 class App extends Component {
   render() {
@@ -96,7 +102,16 @@ class App extends Component {
       {/* <UserProp name = {(isLoggedIn) => isLoggedIn ? 'Pooja' : 'Guest'}/> */}
      {/* <HourRenderCounter/> */}
      {/* <MessageState/> */}
-     <CountReducer/>
+     {/* <CountReducer/> */}
+      {/* <MyList/> */}
+      {/* <MyForm/> */}
+      {/* <ComponentC/> */}
+      {/* <UserProvider value='Pooja'>
+        <ComponentF/>
+      </UserProvider> */}
+
+      {/* <PureCompo/> */}
+      <PureParentCompo/>
       </div>
     )
   }

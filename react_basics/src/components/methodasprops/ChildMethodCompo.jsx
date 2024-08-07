@@ -1,10 +1,10 @@
 import React from 'react';
 
-function ChildMethodCompo(props) {
-    console.log(props);
+function ChildMethodCompo(prop) {
+    console.log(prop);
   return (
     <div>
-      <button onClick={() => props.greetHandler('child')}>Greet Parent</button>
+      <button onClick={() => prop.greetHandler('child')}>Greet Parent</button>
     </div>
   );
 }

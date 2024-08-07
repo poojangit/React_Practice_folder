@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 
 const MyForm = () => {
     const [value, setValue] = useState('')
+
     const handleChange = (event) => {
       setValue(event.target.value)
+      // console.log(value);
     }
   return (
     <div>
